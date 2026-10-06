@@ -1,0 +1,47 @@
+{
+  "rows": 1815,
+  "n_crops": 20,
+  "cv_results": [
+    {
+      "Model": "Random Forest",
+      "CV Accuracy (mean)": 0.9897,
+      "CV Std": 0.0081
+    },
+    {
+      "Model": "Decision Tree",
+      "CV Accuracy (mean)": 0.9738,
+      "CV Std": 0.0051
+    },
+    {
+      "Model": "Gradient Boosting",
+      "CV Accuracy (mean)": 0.9731,
+      "CV Std": 0.008
+    },
+    {
+      "Model": "Logistic Regression",
+      "CV Accuracy (mean)": 0.9704,
+      "CV Std": 0.006
+    },
+    {
+      "Model": "KNN",
+      "CV Accuracy (mean)": 0.9642,
+      "CV Std": 0.0035
+    }
+  ],
+  "best_params": {
+    "max_depth": null,
+    "min_samples_split": 4,
+    "n_estimators": 200
+  },
+  "test_accuracy": 0.9917,
+  "test_macro_f1": 0.9903,
+  "top_features": {
+    "humidity": 0.168,
+    "rainfall": 0.161,
+    "moisture_index": 0.132,
+    "K": 0.098,
+    "P": 0.086
+  },
+  "misclassified": 3,
+  "test_size": 363
+}
